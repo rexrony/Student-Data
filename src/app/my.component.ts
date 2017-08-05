@@ -50,12 +50,10 @@ stdupdate(students, i, usrname, email, age){
 
 //EDIT
  edit(studententry,i,username,email,age){
-   //this.personlist[i].usrname = username.value;
         username.value = studententry.name;
         email.value = studententry.email;
         age.value = studententry.age;
-      console.log(username.value);
-        //console.log('Calling update inside edit',this.stdupdate)
+        console.log('Calling update inside edit',this.stdupdate)
     }
  }
 
